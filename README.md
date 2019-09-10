@@ -1,8 +1,15 @@
-# amp-auth
+# amp-auth-vue-cypress
 
-## Project setup
+## Project setup (without local CLI)
 ```
-fork, clone repo locally
+fork repo
+
+connect repo to Amplify Console
+```
+
+## Project setup (WITH local CLI)
+```
+fork repo, clone locally
 
 amplify init
 
