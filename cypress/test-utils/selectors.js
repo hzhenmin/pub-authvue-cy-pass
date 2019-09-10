@@ -1,0 +1,35 @@
+export const selectors = {
+  // Auth
+  signInHeaderSection: '[data-test="sign-in-header-section"]',
+  signInSignInButton: '[data-test="sign-in-sign-in-button"]',
+  siginInForgotPasswordLink: '[data-test="sign-in-forgot-password-link"]',
+  signInCreateAccountLink: '[data-test="sign-in-create-account-link"]',
+  greetingsNavRight: '[data-test="greetings-nav-right"]',
+  signOutButton: '[data-test="sign-out-button"]',
+  signUpHeaderSection: '[data-test="sign-up-header-section"]',
+  signUpPhoneNumberInput: '[data-test="phone-number-input"]',
+  signUpSignInLink: '[data-test="sign-up-sign-in-link"]',
+  signUpCreateAccountButton: '[data-test="sign-up-create-account-button"]',
+  signInError: '[data-test="authenticator-error"]',
+  greetingSignOutLink: '[data-test="greeting-sign-out-link"]',
+  forgotPasswordHeaderSection: '[data-test="forgot-password-header-section"]',
+  usernameInput: '[data-test="username-input"]',
+  forgotPasswordBackToSignInLink: '[data-test="forgot-password-back-to-sign-in-link"]',
+  signInPasswordInput: '[data-test="sign-in-password-input"]',
+  signInSignInButton: '[data-test="sign-in-sign-in-button"]',
+  signInCreateAccountLink: '[data-test="sign-in-create-account-link"]',
+  signInForgotPasswordLink: '[data-test="sign-in-forgot-password-link"]',
+  // PubSub
+  awsIotProviderHeader: '[data-test="aws-iot-provider-header"]',
+  awsIotProviderPublishButton: '[data-test="aws-iot-provider-publish-button"]',
+  awsIotProviderSubscribeMsg: '[data-test="aws-iot-provider-subscribe-msg"]',
+  // Analytics
+  recordButton: '[data-test="pinpoint-record-button"]',
+  updateEndpointButton: '[data-test="pinpoint-updateEndpoint-button"]',
+  // XR
+  sumerianSceneDomId: "#scene-container-dom-id",
+  sumerianSceneContainer: "[data-test=sumerian-scene-container]",
+  sumerianSceneLoading: "[data-test=sumerian-scene-loading]",
+  sumerianSceneCanvas: "#sumerian-canvas-inner-container > canvas",
+  sumerianSceneBar: "[data-test=sumerian-scene-actions]",
+};

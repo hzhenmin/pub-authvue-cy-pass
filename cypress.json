@@ -1,0 +1,9 @@
+{
+    "baseUrl": "http://localhost:8080/",
+    "env": {
+        "COGNITO_SIGN_IN_USERNAME": "test01",
+        "COGNITO_SIGN_IN_PASSWORD": "The#test1",
+        "COGNITO_SIGN_IN_EMAIL": "samlmar+test01@amazon.com",
+        "COGNITO_SIGN_IN_PHONE_NUMBER": "5555555555"
+    }
+}

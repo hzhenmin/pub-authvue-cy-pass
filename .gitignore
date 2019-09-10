@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+cypress/videos
+cypress/screenshots
+.vscode
+yarn-error.log
+
+
+amplify/\#current-cloud-backend
+amplify/.config/local-*
+amplify/backend/amplify-meta.json
+aws-exports.js
+awsconfiguration.json
+src/aws-exports.js
