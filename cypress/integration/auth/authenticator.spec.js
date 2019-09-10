@@ -8,7 +8,7 @@ import {
 
 import { selectors } from '../../test-utils/selectors';
 
-describe('Authenticator:', function() {
+describe('Authenticator', function() {
 
   beforeEach(function() {
     cy.visit('/');
