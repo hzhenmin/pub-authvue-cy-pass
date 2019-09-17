@@ -17,7 +17,7 @@ describe('Authenticator', function() {
   describe('Sign In:', () => {
     it('renders a sign in header by default', () => {
       // Check for sign in page header
-      cy.get(selectors.signInHeaderSection).contains('Sign in to your account');
+      cy.get(selectors.signInHeaderSection).contains('Error Page Sign in to your account');
     });
 
     it('renders a forgot password link', () => {
