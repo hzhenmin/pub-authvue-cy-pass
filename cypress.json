@@ -1,4 +1,5 @@
 {
+    "projectId": "bgzocw",
     "baseUrl": "http://localhost:8080/",
     "env": {
         "COGNITO_SIGN_IN_USERNAME": "test01",
